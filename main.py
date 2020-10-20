@@ -5,9 +5,9 @@
     and initialliy it's values will be empty space and then after every move 
     we will change the value according to player's choice of move. '''
 
-theBoard = {'7': ' ' , '8': ' ' , '9': ' ' ,
+theBoard = {'1': ' ' , '2': ' ' , '3': ' ' ,
             '4': ' ' , '5': ' ' , '6': ' ' ,
-            '1': ' ' , '2': ' ' , '3': ' ' }
+            '7': ' ' , '8': ' ' , '9': ' ' }
 
 board_keys = []
 
@@ -19,11 +19,11 @@ for key in theBoard:
     so that we can easily print the board everytime by calling this function. '''
 
 def printBoard(board):
-    print(board['7'] + '|' + board['8'] + '|' + board['9'])
+    print(board['1'] + '|' + board['2'] + '|' + board['3'])
     print('-+-+-')
     print(board['4'] + '|' + board['5'] + '|' + board['6'])
     print('-+-+-')
-    print(board['1'] + '|' + board['2'] + '|' + board['3'])
+    print(board['7'] + '|' + board['8'] + '|' + board['9'])
 
 # Now we'll write the main function which has all the gameplay functionality.
 def game():
@@ -34,7 +34,7 @@ def game():
 
     for i in range(10):
         printBoard(theBoard)
-        print("It's your turn," + turn + ".Move to which place?")
+        print("It's your turn " + turn + ". Move to which place?")
 
         move = input()        
 
