@@ -4,12 +4,4 @@ Tic Tac Toe in Python
 
 What else do you think it is?
 
-THE BOARD:
-
-     |    |
-  1  |2   |3
------------------
-  4  |5   |6
------------------
-  7  |8   |9
-     |    |
+The board is organized from top left to bottom right, numbered 1 through 9
