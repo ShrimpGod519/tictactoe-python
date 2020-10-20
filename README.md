@@ -1,7 +1,4 @@
 # tictactoe-python
 
-Tic Tac Toe in Python
+beta file for in dev. work for hangman
 
-What else do you think it is?
-
-The board is organized from top left to bottom right, numbered 1 through 9
